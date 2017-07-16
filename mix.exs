@@ -31,9 +31,7 @@ defmodule PlugSessionMemcached.Mixfile do
     [
       {:cowboy, "~> 1.0.0"},
       {:plug, ">= 0.13.0"},
-      {:mcd, github: "EchoTeam/mcd"}, # memcached driver
-      {:earmark, ">= 0.0.0"},
-      {:ex_doc, ">= 0.10.0"}
+      {:mcd, github: "EchoTeam/mcd"}
     ]
   end
 
